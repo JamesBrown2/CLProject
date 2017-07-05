@@ -1,5 +1,15 @@
 /****** Base ******/
+body {
+    font-family: nunit0;
+    margin: auto;
+    padding: 0;
+    background: blue;
+    box-sizing: border-box;
+    }
 
+.banner {
+    align-content: center;
+}
 
 /****** Layout ******/
 
@@ -7,7 +17,6 @@
 
 /****** Header ******/
 
-/***** 
 
 
 
