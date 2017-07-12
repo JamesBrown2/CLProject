@@ -1,0 +1,34 @@
+/*==============================
+FLEXBOX
+=======================================*/
+
+.container {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-center;
+    height: 300px;
+    }
+
+.who {
+    flex: 1;
+    align-self: flex-start;
+    
+    
+}
+.what {
+    flex: 2;
+    align-self:auto;
+
+.item2 {
+        flex:auto;
+        align-self:baseline;
+        
+    }
+    
+}
+
+.why {
+    flex: 3;
+    
+}
