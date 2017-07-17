@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+
+    <head>
+        <meta charset="UTF-8">
     <title>Auxcomm Kentucky</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
     <link href='https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/flexbox.css">
-   
 
+   
 </head>
 
 <body>
     
 <!--foundations navbar-->
-    <div class="contain-to-grid fixed"
+    <div class="contain-to-grid fixed">
     <nav class="top-bar">
     <ul class="title-area">
     <li="name">
-        
-   
-    <li class="toggle-topbar menu-icon">
-        <a href="#"><span>Menu</span></a>
+         <li class="toggle-topbar">
+            <span>Menu</span>
         </li>
             </ul>
-
 <section class="top-bar-section">
 <ul class="right">
         <li class="index"><a href="index.html">Index</a></li>
@@ -35,23 +33,23 @@
     </section>
     </nav>
     </div>
- <h1>
-        <img class="banner" src= "../img/communications_banner.jpg" 
+ <div class="banner">
+        <img src= "../img/communications_banner.jpg" 
          alt="communications banner"/>
-        </h1>
+    </div>
   
-    <div class="container"> <!--flexbox starts here-->
-    
-    <div class="who">Who</div>
-            <div class="item1">This is the explaination of who makes up Auxcomm Communications</div>
-        
-    <div class="what">What</div>
-        <div class="item2">What do we do</div>
-        
-    <div class="why">Why</div>
-        <div class="item3">Why we do it</div>
-
-        </div>
+     <!--flexbox starts here-->
+<div class="wrapper">
+  <header class="header">Reason for Auxcomm</header>
+  <article class="what">
+    <p>WHAT:<br>
+      We provide various forms of communications during Emergency events. Ranges from Amateur Radio to Digital communications</p>  
+  </article>
+  <aside class="aside why">WHY:
+    <p></p></aside>
+  <aside class="aside how">HOW:
+    <p></p></aside>
+</div>
     
     
     <!-- Footer --><!-- foundations -->
@@ -60,7 +58,10 @@
 
 
     <!-- Insert JavaScript Here -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="../js/foundation.js"></script>
+<script src="../js/foundation.min.js"></script>
+   
 
 
 </body>

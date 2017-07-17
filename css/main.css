@@ -23,10 +23,7 @@ p {
   font-weight: 300;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
+
 
 
 .text-right {
@@ -34,8 +31,15 @@ a {
 }
 
 .banner {
- align-content: center;
- 
+ text-align: center;
+ padding: inherit;
+ margin: 10px auto 10px auto;
+    }
+
+
+.who {
+    font-size: 1.5rem
+    margin: auto;
     
 }
 
@@ -53,6 +57,8 @@ a {
   color: black;
   text-align: center;
 }
+
+/***** NAV ******/
 
 nav {
     font-family: 'Roboto Slab', serif;
@@ -75,9 +81,13 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #871719;
+  background-color: lightgreen;
+  text-decoration: overline;
 }
-
+a {
+    color: blue;
+    text-decoration: auto;
+        }
 
 
 
@@ -111,7 +121,7 @@ footer {
 
   
   nav {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   nav ul li {

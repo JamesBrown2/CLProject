@@ -1,34 +1,54 @@
 /*==============================
 FLEXBOX
 =======================================*/
+@import "compass/css3";
 
-.container {
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    justify-content: flex-center;
-    height: 300px;
-    }
-
-.who {
-    flex: 1;
-    align-self: flex-start;
-    
-    
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  font-weight: bold;
+  text-align: center;
 }
-.what {
-    flex: 2;
-    align-self:auto;
 
-.item2 {
-        flex:auto;
-        align-self:baseline;
-        
-    }
-    
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background:lightred;
+}
+
+.what {
+  text-align: center;
+  background: lightgreen;
 }
 
 .why {
-    flex: 3;
-    
+  background: ;
+}
+
+.how {
+  background: lightblue;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .what    { flex:  0px; }
+  .why { order: 1; } 
+  .how { order: 2; }
+}
+
+body {
+  padding: 2em; 
 }
