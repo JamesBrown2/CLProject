@@ -33,14 +33,34 @@ p {
 .banner {
  text-align: center;
  padding: inherit;
- margin: 10px auto 10px auto;
+ margin: 10px 20px 10px 20px;
     }
 
 
 .who {
     font-size: 1.5rem
     margin: auto;
+    }
+
+/****imgs about.html******/
+.comm {
+   float: none;
+   margin: auto 10px 50px 10px;
+}
+
+.team {
+    float:none;
     
+}
+
+/******text about.html******/
+
+.lightbox {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: cornflowerblue;
+  font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
 /****** Layout ******/
