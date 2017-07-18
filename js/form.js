@@ -37,6 +37,12 @@ $ ("#femail").on( "blur", function() {
     return val.toUpperCase();
   });
 });
-
-
+//currently working on validation
+function validateForm() {
+    var x = document.forms["contactForm"]["femail"].value;
+    if (x == "") {
+        alert("Email must be filled out");
+        return false;
+    }
+}
 

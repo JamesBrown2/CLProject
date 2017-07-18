@@ -2,7 +2,7 @@ Website Purpose:
 An Emergency communications website. This is to bring together volunteer communications personnel across the State of Kentucky so that we can work together towards the same or similar goals.
 Will Include:
 CSS Flexbox
-Java Script
+JQuery
 CSS
 HTML
 
@@ -14,14 +14,12 @@ Contact.html
 This will be where I create a form using JavaScript.
 Fields will be:
 Name *required
-Address*not required
 Phone*not required
 Email* required
-License Type /*there is only three: Technician, General, and Extra Class
-Vhf/uhf*required
-HF capability* required
+Checkbox if they have Amateur License
 
 About.html
 <p> about what we do</p>
+setup a lightbox from treehouse and adjusted as needed , still working on this. 
 
-Want to add a short popup with pictures slide show… JQuery?
+
