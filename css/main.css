@@ -40,8 +40,25 @@ p {
 .who {
     font-size: 1.5rem
     margin: auto;
+    }
+
+/****** About.html *****/
+
+.lightbox {
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: blue;
     
 }
+
+.comm {
+    float:right;
+    text-decoration: none;
+     }
+#auxpictures {
+    list-style-type: none;
+}
+
 
 /****** Layout ******/
 .wrap {
