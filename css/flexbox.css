@@ -12,6 +12,7 @@ FLEXBOX
   
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
+  
   font-weight: bold;
   text-align: center;
 }
@@ -26,22 +27,16 @@ FLEXBOX
 }
 
 .what {
+  text-align: center;
   background: lightgreen;
 }
 
 .why {
-  text: wrap;
   background: ;
-  }
+}
 
 .how {
   background: lightblue;
-}
-
-.aside why {
-  align-items: center;
-  justify-content: center;
-    
 }
 
 @media all and (min-width: 600px) {
