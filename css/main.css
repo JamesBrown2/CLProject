@@ -55,8 +55,15 @@ p {
     float:right;
     text-decoration: none;
      }
+
 #auxpictures {
     list-style-type: none;
+}
+
+#overlay {
+    display:;
+    
+    
 }
 
 
@@ -101,6 +108,7 @@ nav a:hover {
   background-color: lightgreen;
   text-decoration: overline;
 }
+
 a {
     color: blue;
     text-decoration: auto;

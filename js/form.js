@@ -1,27 +1,31 @@
-var $contactForm =$("#contactForm");
+var $contactForm = $("#contactForm");
 var $fname = $("#fname");  
-var $femail =$("#femail");
-var $phoneNumber =$("#phoneNumber");
+var $femail = $("#femail");
+var $phoneNumber = $("#phoneNumber");
 var $fclass = $("#fclass");
 var $fsubmit = $("#fsubmit");
 var $errmsg = $("#errmsg");
 
 
-$( "#fname" ).click(function() {
+$("#fname").click(function() {
     alert("First and Last Name Please")
 });
+
 $( "#femail" ).click(function() {
     alert("Email Please")
 });
+
     //shows alert when someone checks the box
 $( "#fclass" ).click(function() {
     alert("Awesome you are where you need to be")
     });
+
 // Prevent the form from Submitting
 $( "#contactForm" ).submit(function(Event) {
     event.preventDefault(); 
     alert("Will Be Working Shortly")
     });
+
 //Using .css on checkbox
  var $fclass = $( "form input:checkbox" )
   .wrap( "<span>Check Here</span>" )
@@ -38,11 +42,13 @@ $ ("#femail").on( "blur", function() {
   });
 });
 //currently working on validation
-function validateForm() {
-    var x = document.forms["contactForm"]["femail"].value;
-    if (x == "") {
-        alert("Email must be filled out");
-        return false;
-    }
-}
+//function validateForm() {
+   // var x = document.forms["contactForm"]["femail"].value;
+    //if (x == "") {
+    //   alert("Email must be filled out");
+    //    return false;
+  //  }
+//}
+
+
 
